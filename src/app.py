@@ -17,4 +17,5 @@ class SimpleHandler(BaseHTTPRequestHandler):
 if __name__ == '__main__':
     server = HTTPServer(('0.0.0.0', 8000), SimpleHandler)
     print('Server running on port 8000....')
+    print('lol')
     server.serve_forever()
